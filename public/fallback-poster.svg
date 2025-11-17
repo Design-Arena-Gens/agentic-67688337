@@ -1,0 +1,24 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#020617"/>
+  <g opacity="0.8" filter="url(#blur)">
+    <ellipse cx="560" cy="320" rx="420" ry="280" fill="#38BDF8"/>
+    <ellipse cx="1480" cy="360" rx="520" ry="320" fill="#34D399"/>
+    <ellipse cx="960" cy="780" rx="600" ry="260" fill="#1E293B"/>
+  </g>
+  <rect x="440" y="400" width="1040" height="280" rx="56" fill="url(#grad)" fill-opacity="0.6"/>
+  <text x="960" y="520" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-size="72" font-weight="600" fill="#E0F2FE">
+    Veo 3.1 Render Pending
+  </text>
+  <text x="960" y="600" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-size="32" font-weight="400" fill="#BAE6FD">
+    8K Ultra Realistic Cinematic Output
+  </text>
+  <defs>
+    <linearGradient id="grad" x1="440" y1="400" x2="1480" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#22C55E" stop-opacity="0.55"/>
+    </linearGradient>
+    <filter id="blur" x="0" y="0" width="1920" height="1080" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="120"/>
+    </filter>
+  </defs>
+</svg>
